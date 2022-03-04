@@ -1,0 +1,26 @@
+{
+  "name": "entando-plugin",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "entando-plugin",
+    "description": "Description of entando-plugin plugin",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "jwt-decode": "^3.1.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
