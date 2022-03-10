@@ -49,7 +49,7 @@ module.exports = (config, { strapi }) => {
             console.log(kcSuccessResponse.userName, " === keycloak token verified");
             //call login api
           if (!ctx.request.header.authorization || ctx.request.header.authorization === 'null' || ctx.request.header.authorization ===  'undefined') {
-              console.log(" 2=== ctx.request.header.authorization: ", ctx.request.header.authorization);
+              console.log("ctx.request.header.authorization not available ");
               const loginData = {
                 email: "kamlesh.bobde@newvisionsoftware.in",
                 password: "Admin@123"
